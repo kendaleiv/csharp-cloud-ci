@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCloudCI", "src\CSharpCloudCI\CSharpCloudCI.csproj", "{8BFE9D1B-FE0D-41AC-BC3A-786191100F5E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2931F02E-C87D-4495-B2B6-F656D46BDCC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCloudCI.Tests", "tests\CSharpCloudCI.Tests\CSharpCloudCI.Tests.csproj", "{9405F5C7-0300-48F3-A622-5D046BF1F836}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BFE9D1B-FE0D-41AC-BC3A-786191100F5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BFE9D1B-FE0D-41AC-BC3A-786191100F5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BFE9D1B-FE0D-41AC-BC3A-786191100F5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BFE9D1B-FE0D-41AC-BC3A-786191100F5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9405F5C7-0300-48F3-A622-5D046BF1F836}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9405F5C7-0300-48F3-A622-5D046BF1F836}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9405F5C7-0300-48F3-A622-5D046BF1F836}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9405F5C7-0300-48F3-A622-5D046BF1F836}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9405F5C7-0300-48F3-A622-5D046BF1F836} = {2931F02E-C87D-4495-B2B6-F656D46BDCC1}
+	EndGlobalSection
+EndGlobal
